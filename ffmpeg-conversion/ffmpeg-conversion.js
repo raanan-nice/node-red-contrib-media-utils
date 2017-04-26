@@ -131,7 +131,7 @@ module.exports = function (RED) {
 
 
           var numChannels = 1;
-          var frequency = 22050;
+          var frequency = 8000;
           if (config.audiochannels && config.audiochannels == 'stereo') {
             numChannels = 2;
             frequency = 48000;
